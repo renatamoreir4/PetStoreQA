@@ -1,0 +1,5 @@
+default_errors:
+  messages:
+    message_not_found: 'Not Found'
+"headers_auth": { "Content-Type": "application/x-www-form-urlencoded", "Accept": "*/*", "accept-encoding": "gzip, deflate"}
+"headers_chaves": { "Content-Type": "application/json"}
