@@ -16,6 +16,7 @@ Feature: sample karate test script
     When method get
     Then status 404
     And match response.message =="java.lang.NumberFormatException: For input string: \"st2\""
+    And match response.type == "unknown"
     * print response
 
 
